@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+    }
+
+    #logo {
+            text-align: left;
+    }
+
+    #carrinho {
+        display: block;
+        margin: auto;
+
+    }
+
+    #textoInicial {
+        text-align: center;
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: 40vh;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    i#icon {
+        display: none;
+    }
+
+    #superior{
+        display: inline-flex;
+    
+    }
+
+    #superior > ul > li {
+        display: inline-block;
+        
+    }
+}
+

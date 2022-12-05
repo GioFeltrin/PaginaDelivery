@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="styles/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cardápio</title>
+</head>
+<body onresize="mudouTamanho()">
+    
+    <header>
+        <div id="logo">
+            <a href="#"><img src="styles/Imagens/pngwing.com (2).png" alt="logopizza"></a>
+        </div>
+        <div id="textoInicial">
+            <h1> <a href="#"> Pizzaria Fornalha</a></h1>
+            <i class="material-symbols-outlined" id="icon" onclick="clickMenu()">
+                menu
+            </i>
+            <menu id="superior">
+                <ul>
+                    <li> <a href="#"> Sobre nós</a></li>
+                    <li> <a href="#"> Promoções</a></li>
+                    <li> <a href="#"> Cardápio - Delivery</a></li>
+                </ul>
+            </menu>
+        </div>
+        <div id="carrinho"> <a href="#"> <img src="styles/Imagens/carrinho-carrinho.png" alt="carrinho"></a></div>
+    </header>
+    <div id="NomePagina">
+        <span> CARDÁPÍO - DELIVERY </span>
+    </div>
+    <main>
+        <p id="apresentacao">Confira nossos sabores</p>
+        <details>
+            <summary> Entradas</summary>
+                <ul>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Brusqueta <span class="preco"> R&#36; 15,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Crostiti <span class="preco"> R&#36; 15,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Pão de Alho <span class="preco"> R&#36; 15,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                </ul>
+        </details>
+        <details>
+            <summary> Pizzas - 1 sabor </summary>
+            <p>Escolha um sabor para a usa pizza</p>
+                <ul>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Mussarela <span class="preco"> R&#36; 35,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Calabresa <span class="preco"> R&#36; 40,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Portuguesa <span class="preco"> R&#36; 40,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Baiana <span class="preco"> R&#36; 40,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Bacon <span class="preco"> R&#36; 40,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Marguerita <span class="preco"> R&#36; 35,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> 4 Queijos <span class="preco"> R&#36; 40,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                </ul>
+        </details>
+        <details>
+            <p> Escolha dois sabores para sua pizza</p>
+            <summary> Pizzas - 2 sabores </summary>
+                <ul>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Mussarela <span class="preco"> R&#36; 17,50</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Calabresa <span class="preco"> R&#36; 20,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Portuguesa <span class="preco"> R&#36; 20,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Baiana <span class="preco"> R&#36; 20,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Bacon <span class="preco"> R&#36; 20,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Marguerita <span class="preco"> R&#36; 17,50</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> 4 Queijos <span class="preco"> R&#36; 20,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                </ul>
+        </details>
+        <details>
+            <summary> Sobremesas</summary>
+                <ul>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Pizza de Chocolate ao Leite - Tamanho único (8 pedaços) <span class="preco"> R&#36; 30,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                    <details> 
+                        <summary class="produto"> Pizza de Chocolate Branco - Tamanho único (8 pedaços) <span class="preco"> R&#36; 30,00</span></summary>
+                            <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary class="produto"> Alfajor - Unidade <span class="preco"> R&#36; 15,00</span></summary>
+                                <span class="descricao"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quam aliquid modi iste aperiam doloremque quasi facilis id, odit eius illo veritatis ducimus ea unde facere, corrupti sed quisquam laudantium!</span>
+                    </li>
+                </ul>
+        </details>
+        <div>
+            <p>Qual o tamanho de sua pizza?</p>
+            <select name="tamanho" id="tamanho">
+                <option value= none> --tamanho--</option>
+                <option value="pequena">pequena (6 pedeços)</option>
+                <option value="media"> média (8 pedeços) </option>
+                <option value="grande"> grande (12 pedaços)</option>
+            </select>
+        </div>
+    </main>
+    <footer>
+        <div id="endereço" class="baixo">
+            <h2> MEU SITE</h2>
+            <p> Rua Nossa Senhora da Programação, s/N, <br> CEP 00000-000, Curitiba/PR <br> Telefone: (41) 0000-0000</p>
+        </div>
+        <div id="expediente" class="baixo">
+            <h3>Horário de Expediente</h3>
+            <p>Aberto de seg a sex, das 9h às 18h. </p> 
+        </div>
+                
+    </footer>
+    
+</body>
+</html>
