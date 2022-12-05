@@ -79,9 +79,21 @@ h1 > a {
     padding-left: 3em;
     padding-right: 3em;
     display: block;
+   
        
 }
 
 #superior > ul > li > a:hover {
     background-color: rgb(209, 56, 56);
+}
+
+#pizza {
+    display: none;
+}
+
+body {
+    background-color: rgb(14, 85, 14);
+}
+main{
+    text-align: center;
 }
