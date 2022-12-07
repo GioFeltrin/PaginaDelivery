@@ -63,7 +63,8 @@ h1 > a {
 #superior {
     text-align: center;
     display: block;
-      
+    font-family: 'Righteous', cursive;
+    font-size: 10px;      
 }
 
 #superior > ul > li {
@@ -78,6 +79,8 @@ h1 > a {
     font-size: 1.5em;
     padding-left: 3em;
     padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     display: block;
    
        
@@ -91,9 +94,26 @@ h1 > a {
     display: none;
 }
 
+#NomePagina {
+    background-color: green;
+}
+
+#textopag {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    height: 2em;
+    font-size: 1em;
+    padding-top: 0.5em;
+    border-radius: 15px;
+    color: rgb(255, 254, 254);
+    
+}
+
 body {
     background-color: rgb(14, 85, 14);
 }
 main{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
