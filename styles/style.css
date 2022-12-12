@@ -23,7 +23,18 @@ header {
 }
 
 #carrinho {
-    display: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#carrinho > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-family: 'Righteous', cursive;
+    
 }
 
 #carrinho:hover {
@@ -35,7 +46,6 @@ header {
 #textoInicial {
     display: block;
     text-align: center;
-    
 }
 
 h1 {
@@ -70,6 +80,7 @@ h1 > a {
 #superior > ul > li {
     list-style-type: none;
     display: block;
+    border-top: solid 1px;
     
 }
 
@@ -148,6 +159,21 @@ main{
 }
 
 .addCar:hover {
+    background-color: rgb(234, 238, 183);
+    color: rgb(209, 56, 56);
+    cursor: pointer;
+}
+
+.remove {
+    color: rgb(234, 238, 183);
+    background-color: rgb(209, 56, 56);
+    border: solid rgb(209, 56, 56);
+    border-radius: 15px;    
+    padding: 3px;
+    margin: 3px;
+}
+
+.remove:hover {
     background-color: rgb(234, 238, 183);
     color: rgb(209, 56, 56);
     cursor: pointer;

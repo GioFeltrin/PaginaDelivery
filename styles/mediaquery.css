@@ -15,7 +15,16 @@
         display: block;
         margin: auto;
         margin-right: 4em;
-        margin-left: 0%;        
+        margin-left: 0%;  
+        
+    }
+
+    #carrinho > a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        font-family: 'Righteous', cursive;
+        
     }
 
     #textoInicial {
@@ -34,16 +43,21 @@
 
     #superior{
         display: inline-flex;
+       
     
     }
 
     #superior > ul > li {
         display: inline-block;
+        border-top: transparent;
     }
 
     #superior > ul > li > a {
         font-family: 'Satisfy', cursive;
         font-size: 3em;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      
     }
 
     

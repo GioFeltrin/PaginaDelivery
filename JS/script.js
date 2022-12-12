@@ -1,3 +1,6 @@
+
+
+
 function clickMenu(){
     if(superior.style.display == 'block') {
         superior.style.display = 'none'
@@ -12,4 +15,23 @@ function mudouTamanho() {
     } else {
         superior.style.display = 'none'
     }
+}
+
+
+let quantidade = document.querySelector ('qtd')
+let add = document.querySelector ('.addCar')
+add.addEventListener ('click', 'cart');
+
+function cart() {
+    quantidade ++
+    document.getElementById ('qtd').innerText=quantidade
+}
+
+let rmv = document.querySelector ('.remove')
+rmv.addEventListener ('click', 'remove')
+
+function remove (){
+    quantidade --
+    document.getElementById ('qtd').innerText=quantidade
+
 }
