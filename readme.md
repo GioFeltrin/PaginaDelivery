@@ -1,5 +1,6 @@
 # Cardápio de Delivery Responsivo
 
+Página de Cardápio com funções de carrinho para delivery em HTML, CSS e JS.
 
 # Sobre o projeto
 
