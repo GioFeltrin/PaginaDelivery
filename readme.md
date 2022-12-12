@@ -15,14 +15,13 @@ Tenha acesso ao projeto por meio do meu Github: https://github.com/GioFeltrin/Pa
 ![Mobile 1](http://g.recordit.co/mt7CcuuRKA.gif)
 
 ## Layout web
-![Web 1](http://g.recordit.co/TIOD9F32Cb.gif)
+![Web 1](styles/Imagens/layout.png)
 
 
 # Tecnologias utilizadas
 
 ## Front end
 - HTML / CSS / JS 
-
 
 # Autor
 
